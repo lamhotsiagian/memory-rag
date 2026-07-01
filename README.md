@@ -1,10 +1,10 @@
-# 🤖 Memory-Augmented RAG Agent (Ollama + Next.js)
+# Memory-Augmented RAG Agent (Ollama + Next.js)
 
 An agentic Retrieval-Augmented Generation (RAG) system built with **FastAPI**, **LangGraph**, and **Ollama**, featuring a modern **Next.js 15 App Router** UI. The system supports user authentication, multi-tier conversation memory, and an interactive **14-Chapter Lab Suite** demonstrating advanced cognitive architectures.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Agentic RAG with LangGraph**: ReAct-style agent with tools for document retrieval and web search.
 - **Ollama-First Stack**: Runs locally using `llama3.2` for chat and `nomic-embed-text` for vector embeddings.
@@ -19,7 +19,7 @@ An agentic Retrieval-Augmented Generation (RAG) system built with **FastAPI**, *
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 - **Backend**: FastAPI, LangGraph, LangChain Ollama, SQLAlchemy, Pydantic v2
 - **Vector Store**: PostgreSQL + pgvector
@@ -27,7 +27,7 @@ An agentic Retrieval-Augmented Generation (RAG) system built with **FastAPI**, *
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - **Python 3.12+**
@@ -83,8 +83,6 @@ npm run dev
 ```
 - Open `http://localhost:3000` in your browser to launch the application.
 
----
-
 ## 🧪 Testing the Labs in the UI
 
 The application features a dedicated **Interactive Lab Suite** (accessible via `/labs` or the sidebar in the UI) to test each conceptual memory chapter:
@@ -103,4 +101,3 @@ The application features a dedicated **Interactive Lab Suite** (accessible via `
 - **Lab 12 (Caching & Tracing)**: Run Redis cache fetches and toggle LangSmith observability tracers.
 - **Lab 13 (Capstone)**: Test end-to-end memory loops with full document-grounding controls.
 - **Lab 14 (Tiered Cache Gateway)**: Compare fetch latencies of hot cached hits (~0.15ms) vs cold database fallback misses (~45ms).
-# memory-rag
