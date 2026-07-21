@@ -1,4 +1,5 @@
 # Memory-Augmented RAG Agent (Ollama + Next.js)
+Premium Guide e-book: https://shop.beacons.ai/aiengineeringinsider/c262fbd7-2c5f-4167-bc46-aaeeebeb1779
 
 An agentic Retrieval-Augmented Generation (RAG) system built with **FastAPI**, **LangGraph**, and **Ollama**, featuring a modern **Next.js 15 App Router** UI. The system supports user authentication, multi-tier conversation memory, and an interactive **14-Chapter Lab Suite** demonstrating advanced cognitive architectures.
 
